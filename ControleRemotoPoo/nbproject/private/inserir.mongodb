@@ -1,0 +1,12 @@
+use("VS_mongo")
+
+db.produtos.insertMany(
+    [
+        {item:"fone", quantidade:20},
+        {item:"teclado", quntidade:5},
+        {item:"mouse", quantidade:10}
+    ]
+)
+
+use("VS_mongo")
+db.produtos.find()

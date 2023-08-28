@@ -1,0 +1,3 @@
+use("VS_mongo")
+
+db.createCollection("prodtos")
